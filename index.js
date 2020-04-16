@@ -18,7 +18,7 @@ if (process.argv[3]) {
 	process.exit(1);
 }
 
-wget({url: url, dest: 'tmp/'},
+wget({url: url, dest: '/tmp/'},
 	function (error, response, body) {
 		if (error) {
 			console.log(`Error: ${error}`);
