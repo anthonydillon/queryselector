@@ -1,0 +1,19 @@
+name: queryselector
+version: git
+summary: Command line DOM query tool
+description: |
+  Get some content from the web:-
+    $ queryselector https://github.com/nottrobin ".user-profile-bio"
+
+base: core18
+confinement: devmode
+
+parts:
+  queryselector:
+    plugin: nodejs
+    nodejs-version: 10.18.0
+    source: .
+
+apps:
+  queryselector:
+    command: queryselector

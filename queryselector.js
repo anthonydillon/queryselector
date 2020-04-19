@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const wget = require('node-wget');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
