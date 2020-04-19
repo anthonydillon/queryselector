@@ -1,2 +1,6 @@
+*.snap
+*.snap.xdelta*
+*.egg-info/
+
 node_modules/
 tmp/
