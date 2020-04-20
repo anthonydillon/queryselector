@@ -2,5 +2,6 @@
 *.snap.xdelta*
 *.egg-info/
 
+parts
 node_modules/
 tmp/

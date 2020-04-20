@@ -11,6 +11,7 @@ confinement: devmode
 parts:
   queryselector:
     plugin: nodejs
+    nodejs-package-manager: npm
     nodejs-version: 10.18.0
     source: .
 
