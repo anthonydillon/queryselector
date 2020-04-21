@@ -3,5 +3,7 @@
 *.egg-info/
 
 parts
+prime
+stage
 node_modules/
 tmp/
