@@ -18,3 +18,6 @@ parts:
 apps:
   queryselector:
     command: queryselector
+    plugs:
+      - network
+      - network-bind
