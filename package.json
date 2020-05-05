@@ -12,7 +12,6 @@
   "author": "Anthony Dillon",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^16.2.2",
-    "node-wget": "^0.4.3"
+    "jsdom": "^16.2.2"
   }
 }

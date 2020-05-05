@@ -6,7 +6,7 @@ description: |
     $ queryselector https://github.com/nottrobin ".user-profile-bio"
 
 base: core18
-confinement: devmode
+confinement: strict
 
 parts:
   queryselector:
