@@ -1,5 +1,5 @@
 name: queryselector
-version: git
+version: 0.1.0
 summary: Command line DOM query tool
 description: |
   Get some content from the web:-
